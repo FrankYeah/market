@@ -1,0 +1,12 @@
+@import "./global/normalize";
+@include normalize();
+@import './global/mixins';
+@import './global/variables';
+@import './global/functions';
+@import './global/core';
+@import './global/animation';
+
+// componets
+
+// $--font-path: '../assets/fonts';
+@import './global/fonts';
