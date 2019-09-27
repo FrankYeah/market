@@ -10,10 +10,9 @@ npm run build
 cd dist
 
 # # 初始化git 並 add 與 commit
-git init
-git config user.name "chou0728"
-git config user.email "dean34520@gmail.com"
-git add -A
+# git init
+
+git add .
 git commit -m 'deploy'
 
 # 部署到 https://github.com/chou0728/vue-form.git 分支為 gh-pages
